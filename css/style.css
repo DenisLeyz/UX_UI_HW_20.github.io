@@ -1,10 +1,8 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin-right: 0 !important;
     background-color: #EDEDEB;
 }
 
-html {padding-right: 0;}
 
 img#profile {
     width: 85px !important;
@@ -60,8 +58,8 @@ img#heroIntroImage {
 
 
 .studyTitle2 {text-align: center; background-color:transparent ;}
-.studyTitle1 {background-color: transparent;}
-.researchTitle {background-image: none !important;margin: 10px 0;width: 100%;}
+.studyTitle1 {background-color: transparent;font-size: 20px;}
+#rowResearchTitle {width: 100%;}
 
 .container-fluid {margin: 0; padding:0}
 
@@ -76,14 +74,15 @@ img#heroIntroImage {
 h1#theProblemQuestion {margin-top: 5%;font-family: "Oswald",sans-serif;
     font-size: 27.5px;
     font-weight: 500;}
-p#theProblemAnswer {margin: 0 auto;font-family: "Montserrat",sans-serif;
+p#theProblemAnswer {margin: 0 auto !important;font-family: "Montserrat",sans-serif;
     font-size: 20.3px;
     font-weight: 400;
-width: 60%;}
+width: 60%;
+padding-bottom: 100px;}
 
 h1.studyTitle1 {font-family: "Montserrat",sans-serif;
-    font-size: 27.5px;
-    font-weight: 500}
+    font-size: 20px;
+    font-weight: 500;}
 
 h1.studyTitle2 {font-family: "Montserrat",sans-serif;
         font-size: 27.5px;
@@ -177,7 +176,7 @@ img#buttons {width: 100%;height: auto;}
 
 video {margin-left: 2%;width: 100%; height: auto;}
 
-#ending2 {margin-top: 10rem;}
+#ending2 {margin-top: 6rem;}
 
 
 
@@ -190,7 +189,10 @@ margin-top: -10%;}
     background-image:url(../images/city.png);
     background-size: auto;
     height: 1100px;
-    background-position: center;}
+    background-position: center;
+width: 100%;
+overflow-y: visible;
+background-repeat: no-repeat;}
     
 #connect {
     font-family: 'Montserrat', sans-serif; 
@@ -201,7 +203,8 @@ margin-top: -10%;}
     justify-content: center;
     padding-top: 25%;
     padding-left: 25%;
-    padding-right: 25%;}
+    padding-right: 25%;
+background:none;}
 
 
 #ideaProposition1 {background-color: black;;}
@@ -281,10 +284,23 @@ h1#step1 {background-color: rgba(188, 207, 236, 75%);} */
 
 /* media query */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 575px){
 
 /* #rowID5{max-height:1100px;} */
 
 #navbar7 {margin-left:75% !important;}
-}
 
+
+form {margin-left: 20%;}
+#connect {font-size: 27.5px;}
+
+.ideaProposition {margin-left: 10%;}
+.ideaPropositionBody {margin-left: 10%;padding-right: 25%;}
+
+.socialLinksGroup {margin:0 10% !important}
+
+p#theProblemAnswer {margin:0 auto  !}
+
+img {margin: 20px 0;}
+
+}
