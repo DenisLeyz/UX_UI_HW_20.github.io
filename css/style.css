@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #EDEDEB;
+}
+
+html {padding-right: 0;}
+
+img#profile {
+    width: 85px !important;
+    height: auto;}
+
+a.nav-link {
+    width:80px; 
+    border-bottom: 2px solid #636266;
+    color: #636266;
+margin: 0 12px;
+padding-left: 0px;
+font-family: "Catamaran",sans-serif;
+font-size: 18px;
+font-weight: 800;
+}
+
+li.nav-item {margin-left: 0 auto;}
+
+a.nav-link#active {
+    border-bottom: 4px solid black;
+    color: black;
+}
+h1#studyTitle {
+font-family: "Oswald",sans-serif;
+font-size: 32.5px;
+font-weight: 600;
+margin: 3rem 0;
+}
+
+h1#heroHeading1{
+font-family: "Oswald",sans-serif;
+font-size: 27.5px;
+font-weight: 500;
+padding-top: 2rem;
+}
+#studyIntroduction {height:50rem;margin-bottom: 1rem;}
+
+p#heroBody1 {padding-bottom: 2rem;}
+
+
+
+#rowContainer {padding: 0 0 0 15%; width: 50%;}
+
+/* #heroImageContainer {width: auto;height: 100%;} */
+
+img#heroIntroImage {
+    height: 398px;
+    overflow: hidden;
+}
+
+#heroImageContainer {width: 50%;}
+
+
+
+.studyTitle2 {text-align: center; background-color:transparent ;}
+.studyTitle1 {background-color: transparent;}
+.researchTitle {background-image: none !important;margin: 10px 0;width: 100%;}
+
+.container-fluid {margin: 0; padding:0}
+
+.studyBackground{padding: 1rem 0;background-color: rgb(188, 207, 236);}
+#rowResearchTitle {background-color: black;}
+
+
+.problem {margin-bottom: 10px;}
+
+.centeredText {text-align: center;}
+
+h1#theProblemQuestion {margin-top: 5%;font-family: "Oswald",sans-serif;
+    font-size: 27.5px;
+    font-weight: 500;}
+p#theProblemAnswer {margin: 0 auto;font-family: "Montserrat",sans-serif;
+    font-size: 20.3px;
+    font-weight: 400;
+width: 60%;}
+
+h1.studyTitle1 {font-family: "Montserrat",sans-serif;
+    font-size: 27.5px;
+    font-weight: 500}
+
+h1.studyTitle2 {font-family: "Montserrat",sans-serif;
+        font-size: 27.5px;
+        font-weight: 600}
+
+img#researchOverviewImage {
+    height:444px;
+    margin-left: 40%;
+    margin-top: 10%; }
+
+
+p.studyBodyLeft {margin: 10%;}
+
+p.studyBodyRight {margin:10%}
+
+h1#usabilityTesting {margin: 10%;
+font-family: "Oswald",sans-serif;
+font-size: 27.5;}
+
+
+.bodyFont {font-family: "Montserrat",sans-serif;
+    font-size: 18px}
+
+
+#interviewInsights {
+    height: 450px;
+    width: auto;
+    overflow: hidden;
+}
+
+/* #competitorAnalysis { margin-bottom: -30%;} */
+#competitorAnalysis {height: 550px;margin: 0 auto;}
+
+
+
+#userPersona {
+    margin-top: 10%;
+    overflow: hidden;}
+
+.overflow-hidden {overflow: hidden;}
+
+/* #rowID5{max-height:600px;}
+
+#rowID8{max-height: 600px;}
+
+#rowID9{max-height: 500px;}
+
+#rowID11{max-height: 600px;}
+
+#rowID13 {max-height: 800px;}
+
+#rowID16 {max-height: 800px;}
+
+#rowID17 {max-height: 400px;}
+
+#rowID18 {max-height: 1000px;}
+
+#rowID19 {margin-bottom: 5%;} */
+
+
+#iLikeIWish {
+    background-position-x: -100%;
+    width: auto;
+    height:580px ;}
+
+img#journeyMap {height: 388px;width: auto;}
+
+img#siteMap {height:500px;}
+
+img#flows1 {width: 100%;height: auto;}
+
+img#flows2 {height: 700px;}
+
+img#wireframe1 {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1%;}
+
+img#sitemap2 {
+    margin-top: 1%; 
+    height: 675px;
+    width: auto;}
+
+img#navbar {
+    width: auto;
+    height: 253px;}
+
+img#hero {width: auto; height: 918px;}
+
+img#buttons {width: 100%;height: auto;}
+
+video {margin-left: 2%;width: 100%; height: auto;}
+
+#ending2 {margin-top: 10rem;}
+
+
+
+.backgroundImg {
+    height: fit-content;
+    margin-bottom: -1px; 
+margin-top: -10%;}
+    
+.backgroundImg.image {
+    background-image:url(../images/city.png);
+    background-size: auto;
+    height: 1100px;
+    background-position: center;}
+    
+#connect {
+    font-family: 'Montserrat', sans-serif; 
+    text-align: center;
+    display: flex; 
+    font-weight: 500;
+    font-size: 54px;
+    justify-content: center;
+    padding-top: 25%;
+    padding-left: 25%;
+    padding-right: 25%;}
+
+
+#ideaProposition1 {background-color: black;;}
+.ideaProposition {
+    background-color: black;
+    color: white;
+    font-family: "Catamaran",sans-serif;
+    font-size: 27.5px;
+    font-weight: 600;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+#tellMe {font-weight: 400;margin-top: -2%;}
+
+.ideaPropositionBody {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat",sans-serif;
+    font-size: 16px;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding:1rem 0;
+
+}
+.socialLinksGroup {
+    background-color: black !important;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding:1rem 0;
+}
+
+.copyRight {
+    
+    font-family: "Montserrat",sans-serif;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding:1rem 0;
+}
+
+.socialIcon {background-color: black;}
+
+form {background-color: black; color: EDEDEB !important;}
+.form-group {background-color: black; color: EDEDEB !important;
+    width: 80%;max-width: 80%;}
+
+#ideaProposition2 {background-color: black; color: whEDEDEBite !important;}
+
+.form-control {
+    background-color: black;
+    color: EDEDEB !important;
+    font-family: "Oswald",sans-serif;
+    font-size: 16px;
+    font-weight: bold600S;
+    border-left:none;
+border-right:none;
+border-top:none;
+border-radius: 5px;
+outline: none;
+}
+
+textarea {resize:none;
+    outline: none;}
+
+/* h1#research {background-color: rgba(188, 207, 236, 75%);}
+h1#step1 {background-color: rgba(188, 207, 236, 75%);} */
+
+
+
+
+
+
+
+
+
+
+/* media query */
+
+@media only screen and (max-width: 768px){
+
+/* #rowID5{max-height:1100px;} */
+
+#navbar7 {margin-left:75% !important;}
+}
+
